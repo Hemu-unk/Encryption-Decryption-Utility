@@ -11,7 +11,7 @@ To decrypt a .crp file, use the -D flag followed by the name of the file to be d
 - ./file_encrypt_decrypt -D input.crp
 
 ## Note
-- If no flag is specified, the program assumes encryption and encrypts the specified file by default.
+If no flag is specified, the program assumes encryption and encrypts the specified file by default.
 
 ## Algorithm
-- The encryption algorithm involves shifting ASCII values by a fixed amount and converting characters to hexadecimal format. Decryption reverses this process to recover the original text.
+The encryption algorithm involves shifting ASCII values by a fixed amount and converting characters to hexadecimal format. Decryption reverses this process to recover the original text.
